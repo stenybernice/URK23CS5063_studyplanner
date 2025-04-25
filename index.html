@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Planner - Demo Mode</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Study Planner - Demo Mode</h1>
+        </header>
+
+        <section id="subject-selection">
+            <label for="subject">Choose Subject: </label>
+            <select id="subject">
+                <option value="">Select Subject</option>
+            </select>
+            <button id="addSubjectBtn">Add Subject</button>
+        </section>
+
+        <section id="timer">
+            <h2>Session Timer</h2>
+            <div id="timeDisplay">25:00</div>
+            <button id="start25Btn">Start 25min</button>
+            <button id="start50Btn">Start 50min</button>
+            <button id="resetBtn">Reset</button>
+        </section>
+
+        <section id="history">
+            <h2>Session History</h2>
+            <ul id="historyList"></ul>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
